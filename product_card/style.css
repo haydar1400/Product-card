@@ -24,6 +24,7 @@ h6 {
     position: relative;
     margin: 0 auto;
     width: 1280px;
+    isolation: isolate;
 }
 .background {
     position: absolute;
