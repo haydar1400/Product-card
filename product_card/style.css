@@ -9,6 +9,7 @@ body {
     padding-top: 220px;
 }
 
+
 p,
 h1,
 h2,
@@ -20,9 +21,25 @@ h6 {
 }
 
 .container {
+    position: relative;
     margin: 0 auto;
-    width: 1310px;
+    width: 1280px;
+    isolation: isolate;
 }
+.background {
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 795px;
+    height: 697px;
+    z-index: 0;
+}
+.background img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 
 h1 {
     margin: 0;
