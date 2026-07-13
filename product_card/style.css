@@ -69,6 +69,17 @@ h6 {
     flex-direction: column;
 }
 
+#change-color-toggle-btn {
+    background-color: #a1d6fa;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+#change-color-toggle-btn.active {
+    background-color: #ed0202;
+}
+
 .card__img-wrapper {
 
     max-width: 290px;
