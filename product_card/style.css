@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.catalog__background {
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 795px;
+    height: 697px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.catalog__background img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.catalog {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    padding-top: 220px;
+}
+
+
+.catalog__title {
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    color: #515076;
+    margin-bottom: 110px;
+    position: relative;
+    z-index: 1;
+}
+
+.catalog__product-cards {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 340px;
+    min-height: 573px;
+    background-color: #F7F7FA;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img-wrapper {
+
+    max-width: 290px;
+    margin: 0 auto 30px;
+}
+
+.card__subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    color: #A5A3B9;
+    margin-bottom: 10px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #515076;
+    margin-bottom: 7px;
+}
+
+.card__description {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.card__compound-text {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.card__compound-list {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.card__compound-item {
+    position: relative;
+    padding-left: 15px;
+}
+
+.card__compound-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #A5A3B9;
+    border-radius: 50%;
+}
+
+.card-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.card__price-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__price {
+    font-size: 20px;
+}
